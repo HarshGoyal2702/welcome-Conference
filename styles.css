@@ -346,7 +346,7 @@ canvas#confetti {
   }
   .baner {
     width: 35vw;
-  height: 7vh;
+  height: 6vh;
   margin-bottom: 7px;
   margin-right: 12px;
   }
@@ -365,6 +365,22 @@ canvas#confetti {
   height: 7vh;
   margin-bottom: 0px;
   margin-right: 12px;
+  padding: 5px;
+  }
+}
+@media screen and (max-width:400px) {
+  .profile-data{
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 22px;
+    padding-right: -10px;
+    height: 170px;
+    width: 13vw;
+  }
+  .baner {
+    width: 36vw;
+  height: 5vh;
+  margin-bottom: 0px;
+  margin-right: 2px;
   padding: 5px;
   }
 }
